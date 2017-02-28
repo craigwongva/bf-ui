@@ -6,7 +6,7 @@ node {
 
   stage('Setup') {
     git([
-      url: "https://github.com/venicegeo/bf-ui.git",
+      url: "https://github.com/craigwongva/cwbfui.git",
       branch: "master"
     ])
   }
@@ -61,7 +61,7 @@ node {
       passwordVariable: 'bf_password',
     ]]) {
       postman {
-        postmanRepo 'https://github.com/venicegeo/bftest-integration'
+        postmanRepo 'https://github.com/craigwongva/bftest-integration'
         postmanScript './ci/Postman/beachfront.sh'
       }
     }
