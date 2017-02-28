@@ -1,4 +1,4 @@
 #!/bin/bash
 
-APP=beachfront
+APP=cwbeachfront
 EXT=zip
