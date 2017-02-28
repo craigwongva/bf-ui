@@ -1,5 +1,5 @@
 node ('sl61') {
-    git url: 'https://github.com/venicegeo/bf-ui.git', branch: 'master'
+    git url: 'https://github.com/craigwongva/cwbfui.git', branch: 'master'
     // **NPM Deps**
     stage 'Node dependencies'
     def path = tool 'Node 5.10.0'
